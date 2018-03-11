@@ -1,0 +1,21 @@
+{
+  "name": "roll-dice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.28.10",
+    "elm-webpack-loader": "git://github.com/elm-community/elm-webpack-loader.git#7d1c6d939ea5b8b8a8f2aa2eb497e7fba49e6c71",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "client": "webpack-dev-server --port 3000 --mode development",
+    "start": "yarn client"
+  }
+}
