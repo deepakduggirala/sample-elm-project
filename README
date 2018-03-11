@@ -1,0 +1,5 @@
+Clone this repo and then run
+1. yarn install
+2. elm-package install
+
+Start app with "yarn start"
